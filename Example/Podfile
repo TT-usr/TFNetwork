@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TFNetworkCenter_Example' do
+  pod 'TFNetworkCenter', :path => '../'
+
+  target 'TFNetworkCenter_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
