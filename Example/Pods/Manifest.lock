@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.4.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TFNetworkCenter (0.1.0):
+    - Alamofire
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TFNetworkCenter (from `../`)
+
+EXTERNAL SOURCES:
+  TFNetworkCenter:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TFNetworkCenter: a4b035dc181699c634798fa6bbc07a9513cfa101
+
+PODFILE CHECKSUM: f182526568705f7e520f7f4f97cf069876a56719
+
+COCOAPODS: 1.2.1

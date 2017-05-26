@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TFNetworkCenter'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TFNetworkCenter.'
+  s.summary          = '顶楼的网络中心组件.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                    顶楼的网络中心组件,重要组成
                        DESC
 
-  s.homepage         = 'https://github.com/ytc19930125@gmail.com/TFNetworkCenter'
+  s.homepage         = 'https://github.com/zichenJack/TFNetwork.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ytc19930125@gmail.com' => 'you@example.com' }
+  s.author           = { 'ytc19930125@gmail.com' => ' JackYao' }
   s.source           = { :git => 'https://github.com/ytc19930125@gmail.com/TFNetworkCenter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire'
 end

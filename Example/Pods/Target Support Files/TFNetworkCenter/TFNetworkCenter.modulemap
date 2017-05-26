@@ -1,0 +1,6 @@
+framework module TFNetworkCenter {
+  umbrella header "TFNetworkCenter-umbrella.h"
+
+  export *
+  module * { export * }
+}

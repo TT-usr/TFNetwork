@@ -1,0 +1,1252 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = B289AC1D33D57535A28278BD94D5AFAC /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		053D1FD328A5F2E43DBFCF76544172E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36779F74F0A98C2770721E78232AF54 /* Foundation.framework */; };
+		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 763A768CD178CAE90462301E4D74D220 /* UIApplication+StrictKeyWindow.m */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B512DA184CCF5D8D92BB97C9FBCD8AD7 /* Timeline.swift */; };
+		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144825B8E2DA55B2C5700B16BA7E28B7 /* SwiftSupport.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D26E5A3A15445750204807D2738D57A8 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4538347F6D9F230543A233C3728DB6D /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D439C921C6819CB4317061D1252799 /* UIImage+Diff.m */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A9922D2306B3594854B70CA7FF592E /* TaskDelegate.swift */; };
+		3F29AF880D66E48F549FD045C5E32E54 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C01CAF06394816DE12EC9314E5E242 /* Alamofire.framework */; };
+		413B773680F29FDFB46A301F77B12938 /* Pods-TFNetworkCenter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB71B32612AB042BFA266E85478F68A /* Pods-TFNetworkCenter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B964E0ADDBBC6F2020A5399CBA38775 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9170E1BEDD229894A7F1FB6E5637F009 /* FBSnapshotTestCase-dummy.m */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD8CA83594416FFCE10BE6DC8CCB94 /* Request.swift */; };
+		60CED6F079DBDC632E896CE8EF02F55A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36779F74F0A98C2770721E78232AF54 /* Foundation.framework */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F755422B34A25BD64CD3593D80B242D /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34891FD4576A976C6ECACE4AD591FEF8 /* ServerTrustPolicy.swift */; };
+		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = B1767AAC3262A1AE88CFB957E17B63B5 /* UIImage+Compare.m */; };
+		73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36779F74F0A98C2770721E78232AF54 /* Foundation.framework */; };
+		74EEBA81E10E083B1887827C376CAE17 /* TFNetworkCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356454BE99D40AA8ECBB9DDC8CB2473D /* TFNetworkCenter.swift */; };
+		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1990CDC9F48ADAA76135817B5389A5DB /* UIImage+Snapshot.m */; };
+		7B0BA4160956B90751CCAD263F241A0C /* TFNetworkCenter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B75F5D11B71898B955A7F9F7B68980 /* TFNetworkCenter-dummy.m */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54171360AC2660C3D3D429135FF17BE6 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0B1FA66F83978F2AD799BD773E146D /* Result.swift */; };
+		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A259A665FF059650ADDEAFC846743DB0 /* XCTest.framework */; };
+		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA850A06AB05AE3C61626C68F7CB10C7 /* UIKit.framework */; };
+		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36779F74F0A98C2770721E78232AF54 /* Foundation.framework */; };
+		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 10CFD2A9866BC3AFB8760DF0411369C3 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ECBF5299D42B7BB2A2FA81DDB92F7D5 /* TFNetworkCenter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FDEAF32A6DF388D3A531DE13D06D55C2 /* TFNetworkCenter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D079653756759AAC6E769C5CF29B61F4 /* AFError.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC2BE08320923F45217F2CA5CD7FB0C /* NetworkReachabilityManager.swift */; };
+		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6A2FEB5E9738FF8A06A45F6D3C0539 /* FBSnapshotTestController.m */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E60AAEDB02B7209352E653AE126A0BA1 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8BE1C0805AED362D36E1D6F5CADF1A /* SessionManager.swift */; };
+		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B095CC6A60491BFE5D29E6F0274E36E /* QuartzCore.framework */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B8C7CCB44051C4AA4A8578378E7943 /* MultipartFormData.swift */; };
+		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44084FE5A439CC06A94D471B8B345139 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9407D6C51195F323974E47438E71AA9 /* Pods-TFNetworkCenter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC8D8E456BB55D5D1EBDCF226C82271 /* Pods-TFNetworkCenter_Tests-dummy.m */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E135D9C64F06F733453B21D469FAFF5 /* Validation.swift */; };
+		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 351FCB526A3265C3C0A47D78B1D59BEB /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 085E12ECA4857961089CE8C515024244 /* FBSnapshotTestCase.m */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1600E106A8AA0A039CA9E2B860AE4 /* ParameterEncoding.swift */; };
+		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B4124C9F77DC2C69FC12AD4787CE69 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7632A5E2F92C8E320C9A829F8448231 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36779F74F0A98C2770721E78232AF54 /* Foundation.framework */; };
+		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = FA12E1A53CE2AEAF6A000F394F32CC73 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AFAF07300AF921C80C524B5AEDC946 /* Response.swift */; };
+		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6891D8F6E80F7434B6ABF3D44CEBBD15 /* FBSnapshotTestCasePlatform.m */; };
+		E82DF928CD87EDE04B74006622C0466E /* Pods-TFNetworkCenter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C94002F642385381FF3689D9477DF1A /* Pods-TFNetworkCenter_Example-dummy.m */; };
+		EE478521CB380C2E454A2802175C0CBE /* Pods-TFNetworkCenter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E51F8D1805FB347F8DCAD8A9E8FFD4F /* Pods-TFNetworkCenter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDC20F9CFD0088E6BBC3B303009823 /* Notifications.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F6EBEC63EF057EA8DD9E0670C5BC32 /* ResponseSerialization.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C4D80F36959F7F3A985D451C19A9C8 /* Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		093A5A766FD6C798F8D331EA34A21A2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		1BB0511ECC099A7DBDBFA03249DF359F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		5C7515F4E098EB09B19254337E432A01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D7ADDB01D30C4758EF820BADD341F79;
+			remoteInfo = TFNetworkCenter;
+		};
+		CB957C7CB8D2798B2D8AA3237953B889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
+			remoteInfo = FBSnapshotTestCase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020D7BC032FA75766B2A70361DBE1F5B /* Pods-TFNetworkCenter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFNetworkCenter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		05C4D80F36959F7F3A985D451C19A9C8 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		0661ACD158ED5E65CF8D4149B9DF7DA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		085E12ECA4857961089CE8C515024244 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		0896CBDF64E5B90CAB382315A8826D34 /* Pods-TFNetworkCenter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFNetworkCenter_Example-resources.sh"; sourceTree = "<group>"; };
+		0B095CC6A60491BFE5D29E6F0274E36E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		10CFD2A9866BC3AFB8760DF0411369C3 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		144825B8E2DA55B2C5700B16BA7E28B7 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		14B8C7CCB44051C4AA4A8578378E7943 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		1990CDC9F48ADAA76135817B5389A5DB /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		1CC8D8E456BB55D5D1EBDCF226C82271 /* Pods-TFNetworkCenter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TFNetworkCenter_Tests-dummy.m"; sourceTree = "<group>"; };
+		1CDB790AA6AC7B348D6C01A4653CCDA6 /* Pods-TFNetworkCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFNetworkCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1D7961A0308CEC22F629B620973CA5EB /* TFNetworkCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TFNetworkCenter.framework; path = TFNetworkCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E135D9C64F06F733453B21D469FAFF5 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		22B4124C9F77DC2C69FC12AD4787CE69 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		29FD93E615D488C023C8180E3A6FBB1D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B964E0ADDBBC6F2020A5399CBA38775 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2FC2BE08320923F45217F2CA5CD7FB0C /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		31BA696A133154D12A28C54357A8A1DF /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E8D5731C7A29227CB86A5699142F7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34677D01CAF2590C2566ED54652B9C63 /* Pods-TFNetworkCenter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TFNetworkCenter_Tests.modulemap"; sourceTree = "<group>"; };
+		34891FD4576A976C6ECACE4AD591FEF8 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		35001F38C9CEBCD60BF6A40FFB705567 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		351FCB526A3265C3C0A47D78B1D59BEB /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		356454BE99D40AA8ECBB9DDC8CB2473D /* TFNetworkCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TFNetworkCenter.swift; sourceTree = "<group>"; };
+		3D06A1E5296DEEE3F0CC89F1741974EC /* TFNetworkCenter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFNetworkCenter-prefix.pch"; sourceTree = "<group>"; };
+		3FB71B32612AB042BFA266E85478F68A /* Pods-TFNetworkCenter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TFNetworkCenter_Example-umbrella.h"; sourceTree = "<group>"; };
+		44084FE5A439CC06A94D471B8B345139 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		50C88B7D7A2E6235C51960C51588DA03 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		54171360AC2660C3D3D429135FF17BE6 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		627DBA75C037F14607D2C460A2C1CCE6 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		63AD6DCB5FECE7A8D1B836622C370CE1 /* Pods-TFNetworkCenter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFNetworkCenter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		64C77325B42BC5385EAD577B88FF5676 /* TFNetworkCenter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TFNetworkCenter.modulemap; sourceTree = "<group>"; };
+		67F6EBEC63EF057EA8DD9E0670C5BC32 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		6891D8F6E80F7434B6ABF3D44CEBBD15 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		69DCA179E9E5C6E0190810866EA14B89 /* Pods-TFNetworkCenter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFNetworkCenter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6C20B4BC957AA91BABF715E5AC8EF72E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F755422B34A25BD64CD3593D80B242D /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		763A768CD178CAE90462301E4D74D220 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		7E51F8D1805FB347F8DCAD8A9E8FFD4F /* Pods-TFNetworkCenter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TFNetworkCenter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		80AFAF07300AF921C80C524B5AEDC946 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		81B75F5D11B71898B955A7F9F7B68980 /* TFNetworkCenter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TFNetworkCenter-dummy.m"; sourceTree = "<group>"; };
+		8713BD5B2C53AA6F38B012D007708B4A /* Pods_TFNetworkCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TFNetworkCenter_Example.framework; path = "Pods-TFNetworkCenter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C94002F642385381FF3689D9477DF1A /* Pods-TFNetworkCenter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TFNetworkCenter_Example-dummy.m"; sourceTree = "<group>"; };
+		9170E1BEDD229894A7F1FB6E5637F009 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94756D6F7342460A7CCC6F380AB0E608 /* Pods-TFNetworkCenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFNetworkCenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9FA52E48D858B60586F3308539D7FA6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A259A665FF059650ADDEAFC846743DB0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AA6A2FEB5E9738FF8A06A45F6D3C0539 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		AB6E2982A9917B0263F14EC56A9DC2FD /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		AEF6BA742D362336FA575720DFC16307 /* Pods-TFNetworkCenter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFNetworkCenter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B1767AAC3262A1AE88CFB957E17B63B5 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		B24F66DEFCC8ECC79F8E9968036C971E /* Pods-TFNetworkCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TFNetworkCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B289AC1D33D57535A28278BD94D5AFAC /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		B512DA184CCF5D8D92BB97C9FBCD8AD7 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		B7E50989814158E2B2AABF02522D1F63 /* Pods_TFNetworkCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TFNetworkCenter_Tests.framework; path = "Pods-TFNetworkCenter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFD8CA83594416FFCE10BE6DC8CCB94 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		BE0B1FA66F83978F2AD799BD773E146D /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		C6D439C921C6819CB4317061D1252799 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		CAEDC20F9CFD0088E6BBC3B303009823 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		CBD7CB51BF948E20B6EAF53E5FFBEBA6 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		CEC4645B2FF3373122D0E4913262B559 /* Pods-TFNetworkCenter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TFNetworkCenter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D079653756759AAC6E769C5CF29B61F4 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		D26E5A3A15445750204807D2738D57A8 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		D4493A550DCAED3F1AE55C6B85A9512F /* Pods-TFNetworkCenter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TFNetworkCenter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D687EB0B4CB82F645EF88450F9C0FDA7 /* Pods-TFNetworkCenter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TFNetworkCenter_Example.modulemap"; sourceTree = "<group>"; };
+		D6C01CAF06394816DE12EC9314E5E242 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF82FB241983FC2909BFCCDC3198763 /* Pods-TFNetworkCenter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TFNetworkCenter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCA1600E106A8AA0A039CA9E2B860AE4 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		E04B05941610D5DA12FDABDAF452EFEC /* Pods-TFNetworkCenter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TFNetworkCenter_Tests-resources.sh"; sourceTree = "<group>"; };
+		E2AE2D57179E928CFF08ED61DE0F9500 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36779F74F0A98C2770721E78232AF54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E60AAEDB02B7209352E653AE126A0BA1 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		EA850A06AB05AE3C61626C68F7CB10C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F09D02447438191328CA91F9F7BE438B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		F4538347F6D9F230543A233C3728DB6D /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		F7A9922D2306B3594854B70CA7FF592E /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		FA12E1A53CE2AEAF6A000F394F32CC73 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		FA80EC1DB83798888A8A13CB5A6A586E /* TFNetworkCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFNetworkCenter.xcconfig; sourceTree = "<group>"; };
+		FA8BE1C0805AED362D36E1D6F5CADF1A /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		FDEAF32A6DF388D3A531DE13D06D55C2 /* TFNetworkCenter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFNetworkCenter-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */,
+				B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */,
+				841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */,
+				7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47A7B88104A4E5D6485A4003D4CDFFBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053D1FD328A5F2E43DBFCF76544172E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0D79491E15B6A135741072A75F12F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7632A5E2F92C8E320C9A829F8448231 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DCE982E64E9575C2282B67680C16999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F29AF880D66E48F549FD045C5E32E54 /* Alamofire.framework in Frameworks */,
+				60CED6F079DBDC632E896CE8EF02F55A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73B9C996AED49ED7CF8EC2A6F1738059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139463AC88296326278E4018DF0E27FD /* Pods-TFNetworkCenter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0661ACD158ED5E65CF8D4149B9DF7DA2 /* Info.plist */,
+				D687EB0B4CB82F645EF88450F9C0FDA7 /* Pods-TFNetworkCenter_Example.modulemap */,
+				D4493A550DCAED3F1AE55C6B85A9512F /* Pods-TFNetworkCenter_Example-acknowledgements.markdown */,
+				020D7BC032FA75766B2A70361DBE1F5B /* Pods-TFNetworkCenter_Example-acknowledgements.plist */,
+				8C94002F642385381FF3689D9477DF1A /* Pods-TFNetworkCenter_Example-dummy.m */,
+				AEF6BA742D362336FA575720DFC16307 /* Pods-TFNetworkCenter_Example-frameworks.sh */,
+				0896CBDF64E5B90CAB382315A8826D34 /* Pods-TFNetworkCenter_Example-resources.sh */,
+				3FB71B32612AB042BFA266E85478F68A /* Pods-TFNetworkCenter_Example-umbrella.h */,
+				94756D6F7342460A7CCC6F380AB0E608 /* Pods-TFNetworkCenter_Example.debug.xcconfig */,
+				63AD6DCB5FECE7A8D1B836622C370CE1 /* Pods-TFNetworkCenter_Example.release.xcconfig */,
+			);
+			name = "Pods-TFNetworkCenter_Example";
+			path = "Target Support Files/Pods-TFNetworkCenter_Example";
+			sourceTree = "<group>";
+		};
+		175F117B6191B4056E20F486D4B8376F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35001F38C9CEBCD60BF6A40FFB705567 /* FBSnapshotTestCase.modulemap */,
+				50C88B7D7A2E6235C51960C51588DA03 /* FBSnapshotTestCase.xcconfig */,
+				9170E1BEDD229894A7F1FB6E5637F009 /* FBSnapshotTestCase-dummy.m */,
+				627DBA75C037F14607D2C460A2C1CCE6 /* FBSnapshotTestCase-prefix.pch */,
+				44084FE5A439CC06A94D471B8B345139 /* FBSnapshotTestCase-umbrella.h */,
+				33E8D5731C7A29227CB86A5699142F7B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		184C40B368584BDC119B7378C5EA98D0 /* TFNetworkCenter */ = {
+			isa = PBXGroup;
+			children = (
+				5C213E4136937685F11B1AFCFDFD258D /* Classes */,
+			);
+			name = TFNetworkCenter;
+			path = TFNetworkCenter;
+			sourceTree = "<group>";
+		};
+		30AA2860A0C6E480D9D207AEA5F40960 /* TFNetworkCenter */ = {
+			isa = PBXGroup;
+			children = (
+				D6B15176140D92DFCA7EFB783C1D5942 /* Support Files */,
+				184C40B368584BDC119B7378C5EA98D0 /* TFNetworkCenter */,
+			);
+			name = TFNetworkCenter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4696659D10B7003296810E5ED146CB6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29FD93E615D488C023C8180E3A6FBB1D /* Alamofire.framework */,
+				31BA696A133154D12A28C54357A8A1DF /* FBSnapshotTestCase.framework */,
+				8713BD5B2C53AA6F38B012D007708B4A /* Pods_TFNetworkCenter_Example.framework */,
+				B7E50989814158E2B2AABF02522D1F63 /* Pods_TFNetworkCenter_Tests.framework */,
+				1D7961A0308CEC22F629B620973CA5EB /* TFNetworkCenter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		509CF7443C8413D7A3F6C8B9BE35BDAF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E36779F74F0A98C2770721E78232AF54 /* Foundation.framework */,
+				0B095CC6A60491BFE5D29E6F0274E36E /* QuartzCore.framework */,
+				EA850A06AB05AE3C61626C68F7CB10C7 /* UIKit.framework */,
+				A259A665FF059650ADDEAFC846743DB0 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		51619D115EDA37443E703EF4B1D59787 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30AA2860A0C6E480D9D207AEA5F40960 /* TFNetworkCenter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		51675285C049816208BAD3D834F9B3DF /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				144825B8E2DA55B2C5700B16BA7E28B7 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		5C213E4136937685F11B1AFCFDFD258D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				356454BE99D40AA8ECBB9DDC8CB2473D /* TFNetworkCenter.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7091ADDB05829E2FE75AD2530A979276 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				D721E5496599FBBA4E69DB68E96D5D55 /* Core */,
+				175F117B6191B4056E20F486D4B8376F /* Support Files */,
+				51675285C049816208BAD3D834F9B3DF /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		7373ACB6198F1E9475AFA1E54D8EAA0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6C01CAF06394816DE12EC9314E5E242 /* Alamofire.framework */,
+				509CF7443C8413D7A3F6C8B9BE35BDAF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78C6F23D1420C0AD34DBDD3EF8C8C15E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB6E2982A9917B0263F14EC56A9DC2FD /* Alamofire.modulemap */,
+				CBD7CB51BF948E20B6EAF53E5FFBEBA6 /* Alamofire.xcconfig */,
+				E60AAEDB02B7209352E653AE126A0BA1 /* Alamofire-dummy.m */,
+				F09D02447438191328CA91F9F7BE438B /* Alamofire-prefix.pch */,
+				D26E5A3A15445750204807D2738D57A8 /* Alamofire-umbrella.h */,
+				E2AE2D57179E928CFF08ED61DE0F9500 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				51619D115EDA37443E703EF4B1D59787 /* Development Pods */,
+				7373ACB6198F1E9475AFA1E54D8EAA0A /* Frameworks */,
+				FA2FBC59FE5C23AC2B74C3E7AEA2F7CC /* Pods */,
+				4696659D10B7003296810E5ED146CB6B /* Products */,
+				A3CB884C0F8F85703F8ED85A15FBB036 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A3CB884C0F8F85703F8ED85A15FBB036 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				139463AC88296326278E4018DF0E27FD /* Pods-TFNetworkCenter_Example */,
+				A49CCE4D67BA8872A637A866F8B94633 /* Pods-TFNetworkCenter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A49CCE4D67BA8872A637A866F8B94633 /* Pods-TFNetworkCenter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9FA52E48D858B60586F3308539D7FA6D /* Info.plist */,
+				34677D01CAF2590C2566ED54652B9C63 /* Pods-TFNetworkCenter_Tests.modulemap */,
+				CEC4645B2FF3373122D0E4913262B559 /* Pods-TFNetworkCenter_Tests-acknowledgements.markdown */,
+				DBF82FB241983FC2909BFCCDC3198763 /* Pods-TFNetworkCenter_Tests-acknowledgements.plist */,
+				1CC8D8E456BB55D5D1EBDCF226C82271 /* Pods-TFNetworkCenter_Tests-dummy.m */,
+				69DCA179E9E5C6E0190810866EA14B89 /* Pods-TFNetworkCenter_Tests-frameworks.sh */,
+				E04B05941610D5DA12FDABDAF452EFEC /* Pods-TFNetworkCenter_Tests-resources.sh */,
+				7E51F8D1805FB347F8DCAD8A9E8FFD4F /* Pods-TFNetworkCenter_Tests-umbrella.h */,
+				B24F66DEFCC8ECC79F8E9968036C971E /* Pods-TFNetworkCenter_Tests.debug.xcconfig */,
+				1CDB790AA6AC7B348D6C01A4653CCDA6 /* Pods-TFNetworkCenter_Tests.release.xcconfig */,
+			);
+			name = "Pods-TFNetworkCenter_Tests";
+			path = "Target Support Files/Pods-TFNetworkCenter_Tests";
+			sourceTree = "<group>";
+		};
+		D3A38D0977D5C989B8A51768BBC0A96C /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				D079653756759AAC6E769C5CF29B61F4 /* AFError.swift */,
+				05C4D80F36959F7F3A985D451C19A9C8 /* Alamofire.swift */,
+				6F755422B34A25BD64CD3593D80B242D /* DispatchQueue+Alamofire.swift */,
+				14B8C7CCB44051C4AA4A8578378E7943 /* MultipartFormData.swift */,
+				2FC2BE08320923F45217F2CA5CD7FB0C /* NetworkReachabilityManager.swift */,
+				CAEDC20F9CFD0088E6BBC3B303009823 /* Notifications.swift */,
+				DCA1600E106A8AA0A039CA9E2B860AE4 /* ParameterEncoding.swift */,
+				BDFD8CA83594416FFCE10BE6DC8CCB94 /* Request.swift */,
+				80AFAF07300AF921C80C524B5AEDC946 /* Response.swift */,
+				67F6EBEC63EF057EA8DD9E0670C5BC32 /* ResponseSerialization.swift */,
+				BE0B1FA66F83978F2AD799BD773E146D /* Result.swift */,
+				34891FD4576A976C6ECACE4AD591FEF8 /* ServerTrustPolicy.swift */,
+				54171360AC2660C3D3D429135FF17BE6 /* SessionDelegate.swift */,
+				FA8BE1C0805AED362D36E1D6F5CADF1A /* SessionManager.swift */,
+				F7A9922D2306B3594854B70CA7FF592E /* TaskDelegate.swift */,
+				B512DA184CCF5D8D92BB97C9FBCD8AD7 /* Timeline.swift */,
+				1E135D9C64F06F733453B21D469FAFF5 /* Validation.swift */,
+				78C6F23D1420C0AD34DBDD3EF8C8C15E /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		D6B15176140D92DFCA7EFB783C1D5942 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C20B4BC957AA91BABF715E5AC8EF72E /* Info.plist */,
+				64C77325B42BC5385EAD577B88FF5676 /* TFNetworkCenter.modulemap */,
+				FA80EC1DB83798888A8A13CB5A6A586E /* TFNetworkCenter.xcconfig */,
+				81B75F5D11B71898B955A7F9F7B68980 /* TFNetworkCenter-dummy.m */,
+				3D06A1E5296DEEE3F0CC89F1741974EC /* TFNetworkCenter-prefix.pch */,
+				FDEAF32A6DF388D3A531DE13D06D55C2 /* TFNetworkCenter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TFNetworkCenter";
+			sourceTree = "<group>";
+		};
+		D721E5496599FBBA4E69DB68E96D5D55 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				10CFD2A9866BC3AFB8760DF0411369C3 /* FBSnapshotTestCase.h */,
+				085E12ECA4857961089CE8C515024244 /* FBSnapshotTestCase.m */,
+				22B4124C9F77DC2C69FC12AD4787CE69 /* FBSnapshotTestCasePlatform.h */,
+				6891D8F6E80F7434B6ABF3D44CEBBD15 /* FBSnapshotTestCasePlatform.m */,
+				F4538347F6D9F230543A233C3728DB6D /* FBSnapshotTestController.h */,
+				AA6A2FEB5E9738FF8A06A45F6D3C0539 /* FBSnapshotTestController.m */,
+				351FCB526A3265C3C0A47D78B1D59BEB /* UIApplication+StrictKeyWindow.h */,
+				763A768CD178CAE90462301E4D74D220 /* UIApplication+StrictKeyWindow.m */,
+				FA12E1A53CE2AEAF6A000F394F32CC73 /* UIImage+Compare.h */,
+				B1767AAC3262A1AE88CFB957E17B63B5 /* UIImage+Compare.m */,
+				B289AC1D33D57535A28278BD94D5AFAC /* UIImage+Diff.h */,
+				C6D439C921C6819CB4317061D1252799 /* UIImage+Diff.m */,
+				2B964E0ADDBBC6F2020A5399CBA38775 /* UIImage+Snapshot.h */,
+				1990CDC9F48ADAA76135817B5389A5DB /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		FA2FBC59FE5C23AC2B74C3E7AEA2F7CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3A38D0977D5C989B8A51768BBC0A96C /* Alamofire */,
+				7091ADDB05829E2FE75AD2530A979276 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1EADAECADFE3B55F7C9D62DDFAB222E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECBF5299D42B7BB2A2FA81DDB92F7D5 /* TFNetworkCenter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F52D45EBC1062593EAC6ACF5D43A13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE478521CB380C2E454A2802175C0CBE /* Pods-TFNetworkCenter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833AB82F2BD91F723A8C5642F98C70F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413B773680F29FDFB46A301F77B12938 /* Pods-TFNetworkCenter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */,
+				BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */,
+				2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */,
+				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
+				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
+				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
+				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D7ADDB01D30C4758EF820BADD341F79 /* TFNetworkCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BFB0931738DCFD88EA082EFE064F78C /* Build configuration list for PBXNativeTarget "TFNetworkCenter" */;
+			buildPhases = (
+				B567229419AE589BD92922B5983B168E /* Sources */,
+				8DCE982E64E9575C2282B67680C16999 /* Frameworks */,
+				1EADAECADFE3B55F7C9D62DDFAB222E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46FBECCE0B2414654F198C6846728348 /* PBXTargetDependency */,
+			);
+			name = TFNetworkCenter;
+			productName = TFNetworkCenter;
+			productReference = 1D7961A0308CEC22F629B620973CA5EB /* TFNetworkCenter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */,
+				1D421A30A1BDB7E1C4216F64D0C939B1 /* Frameworks */,
+				9DC6F5AC11E37A1EB45C6473C9E800B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 31BA696A133154D12A28C54357A8A1DF /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 29FD93E615D488C023C8180E3A6FBB1D /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8EC09B916EFFA16C0922F403F64B357B /* Pods-TFNetworkCenter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71D5961833B9916317D26ABFB6157C16 /* Build configuration list for PBXNativeTarget "Pods-TFNetworkCenter_Tests" */;
+			buildPhases = (
+				C91800AD6DC68DB6549ECF1FB47D5365 /* Sources */,
+				47A7B88104A4E5D6485A4003D4CDFFBE /* Frameworks */,
+				46F52D45EBC1062593EAC6ACF5D43A13 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A47EB70C0902598FAE608734403FAB00 /* PBXTargetDependency */,
+			);
+			name = "Pods-TFNetworkCenter_Tests";
+			productName = "Pods-TFNetworkCenter_Tests";
+			productReference = B7E50989814158E2B2AABF02522D1F63 /* Pods_TFNetworkCenter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C69E568C38E4CAB7D5F8E461675744ED /* Pods-TFNetworkCenter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1294A3614BAC84760E8F683BBE7A1B2B /* Build configuration list for PBXNativeTarget "Pods-TFNetworkCenter_Example" */;
+			buildPhases = (
+				7CACF36DABD32180613D220B7EA9D0B5 /* Sources */,
+				7A0D79491E15B6A135741072A75F12F2 /* Frameworks */,
+				833AB82F2BD91F723A8C5642F98C70F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2283D0ED0BB7CEB6EC2C54E174277888 /* PBXTargetDependency */,
+				524A273247D8C3A0A772515244EC4F1E /* PBXTargetDependency */,
+			);
+			name = "Pods-TFNetworkCenter_Example";
+			productName = "Pods-TFNetworkCenter_Example";
+			productReference = 8713BD5B2C53AA6F38B012D007708B4A /* Pods_TFNetworkCenter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4696659D10B7003296810E5ED146CB6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
+				C69E568C38E4CAB7D5F8E461675744ED /* Pods-TFNetworkCenter_Example */,
+				8EC09B916EFFA16C0922F403F64B357B /* Pods-TFNetworkCenter_Tests */,
+				1D7ADDB01D30C4758EF820BADD341F79 /* TFNetworkCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CACF36DABD32180613D220B7EA9D0B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82DF928CD87EDE04B74006622C0466E /* Pods-TFNetworkCenter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B567229419AE589BD92922B5983B168E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0BA4160956B90751CCAD263F241A0C /* TFNetworkCenter-dummy.m in Sources */,
+				74EEBA81E10E083B1887827C376CAE17 /* TFNetworkCenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C91800AD6DC68DB6549ECF1FB47D5365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9407D6C51195F323974E47438E71AA9 /* Pods-TFNetworkCenter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E80CCD063D04B57A1A5E140726E8A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
+				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
+				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
+				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
+				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
+				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
+				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
+				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
+				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2283D0ED0BB7CEB6EC2C54E174277888 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 093A5A766FD6C798F8D331EA34A21A2A /* PBXContainerItemProxy */;
+		};
+		46FBECCE0B2414654F198C6846728348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 1BB0511ECC099A7DBDBFA03249DF359F /* PBXContainerItemProxy */;
+		};
+		524A273247D8C3A0A772515244EC4F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TFNetworkCenter;
+			target = 1D7ADDB01D30C4758EF820BADD341F79 /* TFNetworkCenter */;
+			targetProxy = 5C7515F4E098EB09B19254337E432A01 /* PBXContainerItemProxy */;
+		};
+		A47EB70C0902598FAE608734403FAB00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */;
+			targetProxy = CB957C7CB8D2798B2D8AA3237953B889 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0920ABB77FAFEFFAEA729689EEEDFD24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CDB790AA6AC7B348D6C01A4653CCDA6 /* Pods-TFNetworkCenter_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TFNetworkCenter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TFNetworkCenter_Tests/Pods-TFNetworkCenter_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TFNetworkCenter_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24B062177DCF00537762C12233F55F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94756D6F7342460A7CCC6F380AB0E608 /* Pods-TFNetworkCenter_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TFNetworkCenter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TFNetworkCenter_Example/Pods-TFNetworkCenter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TFNetworkCenter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		288276D1246703292AA27E69A6B50D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA80EC1DB83798888A8A13CB5A6A586E /* TFNetworkCenter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TFNetworkCenter/TFNetworkCenter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TFNetworkCenter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TFNetworkCenter/TFNetworkCenter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TFNetworkCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		59C2384BE778ADEE5C159262000826D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63AD6DCB5FECE7A8D1B836622C370CE1 /* Pods-TFNetworkCenter_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TFNetworkCenter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TFNetworkCenter_Example/Pods-TFNetworkCenter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TFNetworkCenter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D072D0D174F12EAACC1862DA756E67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD7CB51BF948E20B6EAF53E5FFBEBA6 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8FFB9F9FE1314D1821876C45F130A22F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA80EC1DB83798888A8A13CB5A6A586E /* TFNetworkCenter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TFNetworkCenter/TFNetworkCenter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TFNetworkCenter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TFNetworkCenter/TFNetworkCenter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TFNetworkCenter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B65DB13DDC8CF508BD42FCE499E6896 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B24F66DEFCC8ECC79F8E9968036C971E /* Pods-TFNetworkCenter_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TFNetworkCenter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TFNetworkCenter_Tests/Pods-TFNetworkCenter_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TFNetworkCenter_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD5CB3691FE92843589F6AF6BCC8DFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C88B7D7A2E6235C51960C51588DA03 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9660A42FEDD040185578ADA021EC8E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBD7CB51BF948E20B6EAF53E5FFBEBA6 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6DBA53A4511720174B84279A5CEB561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50C88B7D7A2E6235C51960C51588DA03 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1294A3614BAC84760E8F683BBE7A1B2B /* Build configuration list for PBXNativeTarget "Pods-TFNetworkCenter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B062177DCF00537762C12233F55F4C /* Debug */,
+				59C2384BE778ADEE5C159262000826D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BFB0931738DCFD88EA082EFE064F78C /* Build configuration list for PBXNativeTarget "TFNetworkCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288276D1246703292AA27E69A6B50D16 /* Debug */,
+				8FFB9F9FE1314D1821876C45F130A22F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9660A42FEDD040185578ADA021EC8E0 /* Debug */,
+				7D072D0D174F12EAACC1862DA756E67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71D5961833B9916317D26ABFB6157C16 /* Build configuration list for PBXNativeTarget "Pods-TFNetworkCenter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B65DB13DDC8CF508BD42FCE499E6896 /* Debug */,
+				0920ABB77FAFEFFAEA729689EEEDFD24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F28097D43AF5CD8DA838ABD52A053790 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5CB3691FE92843589F6AF6BCC8DFD5 /* Debug */,
+				F6DBA53A4511720174B84279A5CEB561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

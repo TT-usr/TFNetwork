@@ -1,0 +1,6 @@
+framework module Pods_TFNetworkCenter_Example {
+  umbrella header "Pods-TFNetworkCenter_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

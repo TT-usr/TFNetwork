@@ -1,0 +1,27 @@
+{
+  "name": "TFNetworkCenter",
+  "version": "0.1.0",
+  "summary": "顶楼的网络中心组件.",
+  "description": "顶楼的网络中心组件,重要组成",
+  "homepage": "https://github.com/ytc19930125@gmail.com/TFNetworkCenter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ytc19930125@gmail.com": " JackYao"
+  },
+  "source": {
+    "git": "https://github.com/ytc19930125@gmail.com/TFNetworkCenter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TFNetworkCenter/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  }
+}
